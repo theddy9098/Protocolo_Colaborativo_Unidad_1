@@ -1,7 +1,9 @@
 Numeros = [1,5,4,3,7,0,6,9,5,8]
 
 for i in Numeros:
-    print("los numeros del arreglo son",i,"\n") 
+    print("los numeros del arreglo son",i) 
+
+print("\n")
 
 
 for idx, val in enumerate(Numeros):
@@ -10,3 +12,12 @@ for idx, val in enumerate(Numeros):
 
 for i in Numeros:
     print("los numeros cambiados son ",i)
+
+print("\n")
+
+for inx, val in enumerate(Numeros):
+     resultado = val * inx
+     print("El resultado de las multiplicaciones es:",resultado)
+
+
+
