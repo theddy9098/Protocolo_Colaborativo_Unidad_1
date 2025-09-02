@@ -8,4 +8,15 @@ for Elemento in Matriz:
 
 print("La suma de los elementos es:",suma)
 
+print("\n")
+
+for fila in Matriz:
+    print(fila)
+
+Matriz[0],Matriz[-1] = Matriz[-1],Matriz[0]
+
+print("\nMatriz despues de intercambiar la primera y ultima fila:\n")
+
+for fila in Matriz:
+    print(fila)
 
