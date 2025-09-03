@@ -1,7 +1,15 @@
-const Numeros: number[]=[2,4,6,8,10,12,4,9,5,3];
+const Numeros: number[]=[2,3,6,7,10,12,4,9,5,3];
 
-//Recorrido con el for clasico
+console.log("Los numeros son: " + Numeros);
+
+
+for (let i=0; i < Numeros.length; i++){
+    if (i % 2 != 0){
+        console.log(Numeros [i] = 0 );
+    }
+}
 
 for (let i of Numeros){
-    console.log(i);
-}
+    console.log("Los numeros son: " + i);
+    
+}    
