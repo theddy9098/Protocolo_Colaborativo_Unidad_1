@@ -9,6 +9,7 @@ for (let i = 0; i < matrix.length; i++) {
     console.log(matrix[i]);
 }
 
+console.log("\nRecorrer la matriz por columnas:");
 for (let j = 0; j < matrix[0].length; j++) {
     let fila = "";
     for (let i = 0; i < matrix.length; i++) {
@@ -16,3 +17,12 @@ for (let j = 0; j < matrix[0].length; j++) {
     }
     console.log(fila);
 }
+
+console.log("\n sumar los elementos de la matriz");
+let suma = 0;
+for (let i of matrix) {
+    for (let j of i) {
+        suma += j;
+    }
+}
+console.log("La suma de los elementos de la matriz es: " + suma);
