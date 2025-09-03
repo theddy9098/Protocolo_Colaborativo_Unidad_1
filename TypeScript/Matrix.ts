@@ -8,3 +8,11 @@ console.log("Matriz 3x3:");
 for (let i = 0; i < matrix.length; i++) {
     console.log(matrix[i]);
 }
+
+for (let j = 0; j < matrix[0].length; j++) {
+    let fila = "";
+    for (let i = 0; i < matrix.length; i++) {
+        fila += matrix[i][j]+" ";
+    }
+    console.log(fila);
+}
